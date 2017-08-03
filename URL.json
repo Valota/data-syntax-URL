@@ -1,0 +1,12 @@
+{
+    "vType": "object",
+    "required": 1,
+    "url": {
+        "vType": "text",
+        "required": 1
+    },
+    "status": {
+        "vType": "text",
+        "required": 1
+    }
+}
