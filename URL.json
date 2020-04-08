@@ -1,12 +1,18 @@
 {
-    "vType": "object",
-    "required": 1,
-    "url": {
-        "vType": "text",
-        "required": 1
-    },
-    "status": {
-        "vType": "text",
-        "required": 1
-    }
+  "$id": "https:\/\/raw.githubusercontent.com\/Valota\/data-syntax-URL\/v2.0.0\/URL.json",
+  "$schema": "http:\/\/json-schema.org\/draft-07\/schema#",
+  "description": "URL data syntax for Valotalive",
+  "type": "object",
+  "properties": {
+	"url": {
+	  "type": "string"
+	},
+	"status": {
+	  "type": "string"
+	}
+  },
+  "required": [
+	"url",
+	"status"
+  ]
 }
